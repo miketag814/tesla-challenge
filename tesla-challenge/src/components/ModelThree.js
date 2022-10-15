@@ -1,12 +1,12 @@
 import React from 'react'
-import './Section.css'
+import './ModelThree.css'
 
-function Section() {
+function ModelThree() {
     return (
         <div>
-            <div className='section'>
+            <div className='sectionthree'>
                 <div className='section_text'>
-                    <h1>Model S</h1>
+                    <h1>Model 3</h1>
                     <p>Order Online for Touchless Delivery</p>
                 </div>
 
@@ -23,4 +23,4 @@ function Section() {
     )
 }
 
-export default Section
+export default ModelThree

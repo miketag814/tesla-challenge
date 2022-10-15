@@ -1,12 +1,12 @@
 import React from 'react'
-import './Section.css'
+import './Model-x.css'
 
-function Section() {
+function Modelx() {
     return (
         <div>
-            <div className='section'>
+            <div className='sectionx'>
                 <div className='section_text'>
-                    <h1>Model S</h1>
+                    <h1>Model X</h1>
                     <p>Order Online for Touchless Delivery</p>
                 </div>
 
@@ -23,4 +23,4 @@ function Section() {
     )
 }
 
-export default Section
+export default Modelx
