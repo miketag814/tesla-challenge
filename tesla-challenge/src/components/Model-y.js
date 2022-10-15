@@ -4,7 +4,7 @@ import './Model-y.css'
 function Modely() {
     return (
         <div>
-            <div className='section'>
+            <div className='sectiony'>
                 <div className='section_text'>
                     <h1>Model Y</h1>
                     <p>Order Online for Touchless Delivery</p>
