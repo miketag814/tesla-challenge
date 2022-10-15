@@ -1,10 +1,10 @@
 .section {
     width: 100vw;
     height: 100vh;
+    background-image: url('images/model-s.jpg');
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(images/model-s.jpg);
+    background-position: top, bottom;
+    background-repeat: repeat-y;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
