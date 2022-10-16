@@ -1,0 +1,67 @@
+.sectionsr {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(images/solar-roof.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_text {
+    padding-top: 15vh;
+    text-align: center;
+}
+
+.button_group {
+    display: flex;
+    margin-bottom: 30px;    
+}
+
+@media screen and (max-width: 768px){
+    .button_group {
+        flex-direction: column;
+    }
+}
+
+.customOrderButton {
+    background-color: rgba(23, 26, 32);
+    height: 40px;
+    width: 256px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    opacity: 0.85;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+.existingInventoryButton {
+    background-color: white;
+    height: 40px;
+    width: 256px;
+    color:  rgba(23, 26, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    opacity: 0.65;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+.section_arrow {
+    height: 40px;
+    color: white;
+    overflow-x: hidden;
+    animation: animateDown infinite 1.5s;
+}
